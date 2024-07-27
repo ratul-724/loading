@@ -1,0 +1,35 @@
+.full{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(195, 195, 195);
+    border-radius: 25px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    align-content: center;
+}
+.full p{
+    font-size: small;
+    font-weight: 700;
+}
+.loder{
+    border: 5px solid rgb(134, 134, 134);
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    border-top: 5px solid black;
+    animation: rotate 1.5s infinite;
+}
+
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+}
